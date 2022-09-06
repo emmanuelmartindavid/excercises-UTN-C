@@ -1,9 +1,3 @@
-/*
- * funciones.h
- *
- *  Created on: 5 sep. 2022
- *      Author: cuerpos
- */
 
 #ifndef FUNCIONES_H_
 #define FUNCIONES_H_
