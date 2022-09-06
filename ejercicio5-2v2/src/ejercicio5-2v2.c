@@ -1,16 +1,24 @@
 /*
  ============================================================================
- Name        : ejercicio5-2v2.c
- Author      : 
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Ask for the input of 10 integers between -1000 and 1000. Determine:
+ Number of positives and negatives.
+ Sum of the pairs.
+ The largest of the odd.
+ List of entered numbers.
+ List of even numbers.
+ List of the numbers of the odd positions.
+
+ repeating numbers
+ Positives increasing and negatives decreasing
+
+ Functions and vectors must be used.
  ============================================================================
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include "funciones.h"
+
 
 int main(void) {
 	setbuf(stdout, NULL);
@@ -26,19 +34,13 @@ int main(void) {
 		printf("List of entered numbers %d: \n", number[i]);
 	}
 
-	counterPositivesNegatives(number, 10);
-	acumulatoreven(number, 10);
-	calculatorLargestOdd(number, 10);
-	equalizerNumbers(number, 10);
-	orderOddNumber(number, 10);
-	orderPositivesNegatives(number, 10);
+	counterPositivesNegatives(number);
+	acumulatoreven(number);
+	calculatorLargestOdd(number);
+	equalizerNumbers(number);
+	orderOddNumber(number);
+	orderPositivesNegatives(number);
 
 	return EXIT_SUCCESS;
 }
 
-/*counterPositivesNegatives(number[i]);
-	acumulatoreven(number[i]);
-	calculatorLargestOdd(number[i]);
-	equalizerNumbers(number[i]);
-	orderOddNumber(number[i]);
-	orderPositivesNegatives(number[i]);*/

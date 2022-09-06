@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void counterPositivesNegatives(int number[10]) {
+void counterPositivesNegatives(int number[]) {
 
 	int counterPositives = 0;
 	int counterNegatives = 0;
@@ -14,12 +14,12 @@ void counterPositivesNegatives(int number[10]) {
 			counterNegatives++;
 		}
 
-		printf("The number of positives: %d , number of negatives %d: \n",
+		printf("positives:  %d , negatives %d: \n",
 				counterPositives, counterNegatives);
 	}
 }
 
-void acumulatoreven(int number[10]) {
+void acumulatoreven(int number[]) {
 
 	int i;
 	int acumulatorPairs;
@@ -33,9 +33,8 @@ void acumulatoreven(int number[10]) {
 	printf("The add of pair numbers %d \n", acumulatorPairs);
 }
 
-void calculatorLargestOdd(int number[10]) {
+void calculatorLargestOdd(int number[]) {
 
-	//int oddNumber[10];
 	int largestOdd;
 	int flag = 0;
 	int i;
@@ -52,7 +51,7 @@ void calculatorLargestOdd(int number[10]) {
 	printf("Largest of the odds %d \n", largestOdd);
 }
 
-void equalizerNumbers(int number[10]) {
+void equalizerNumbers(int number[]) {
 
 	for (int i = 0; i < 10; i++) {
 		for (int j = i + 1; j < 10; j++) {
@@ -66,7 +65,7 @@ void equalizerNumbers(int number[10]) {
 
 }
 
-void orderOddNumber(int number[10]) {
+void orderOddNumber(int number[]) {
 
 	int oddNumber[10] = { -2, -2, -2, -2, -2, -2, -2, -2, -2, -2 };
 	int c;
@@ -77,7 +76,7 @@ void orderOddNumber(int number[10]) {
 	}
 }
 
-void orderPositivesNegatives(int number[10]) {
+void orderPositivesNegatives(int number[]) {
 
 	int aux;
 
@@ -93,9 +92,9 @@ void orderPositivesNegatives(int number[10]) {
 	}
 	for (int j = 0; j < 10; j++) {
 		if (number[j] > 0) {
-			printf("positives increacing: %d \n", number[j]);
+			printf("positives increasing: %d \n", number[j]);
 		} else {
-			printf("negatives : %d \n", number[j]);
+			printf("negatives decreasing: %d \n", number[j]);
 		}
 	}
 }
