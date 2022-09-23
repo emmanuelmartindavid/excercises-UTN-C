@@ -19,7 +19,7 @@
 #include <stdlib.h>
 #include "funciones.h"
 
-
+#define LEN 10
 int main(void) {
 	setbuf(stdout, NULL);
 	int number[10];
@@ -27,11 +27,15 @@ int main(void) {
 
 	printf("Enter 10 numbers between -1000 and 1000: \n");
 
-	for (i = 0;  i< 10; i++) {
-		scanf("%d", &number[i]);
-	}
+	for (i = 0; i < LEN; i++) {
+	        do {
+	            printf("Ingrese un numero");
+	            scanf("%d", &number[i]);
+	        } while (!(number[i] < 1000 && number[i] >-1000));
+
+	    }
 	for (i = 0; i < 10; i++) {
-		printf("List of entered numbers %d: \n", number[i]);
+		printf("List of entered numbers: %d \n", number[i]);
 	}
 
 	counterPositivesNegatives(number);

@@ -18,7 +18,7 @@ int main(void) {
 
 		for (i = 1; i <= primerNumero; i++) {
 
-			factorial = factorial * i;
+			factorial *= i;
 		}
 
 		printf("factorial es: %d", factorial);

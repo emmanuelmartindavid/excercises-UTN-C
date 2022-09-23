@@ -28,11 +28,8 @@ int main(void)
 		for(int i = 0; i<10; i++)
 		{
 
-		 printf("ingrese numero entero: ");
-		 scanf("%d", &numero);
-		 fflush(stdin);
 		do{
-		 printf("ingrese numero distinto de 0: ");
+		 printf("ingrese numero entero: %d \n", i+1);
 		 scanf("%d", &numero);
 		 fflush(stdin);
 		}while(numero==0);

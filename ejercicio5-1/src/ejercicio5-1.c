@@ -20,7 +20,6 @@ int main(void) {
 	for (i = 0; i < 5; i++) {
 		printf("Enter 5 numbers please:");
 		scanf("%d", &vec[i]);
-
 	}
 	for (i = 0; i < 5; i++) {
 		acumulatorNumbers += vec[i];
@@ -30,3 +29,6 @@ int main(void) {
 
 	return EXIT_SUCCESS;
 }
+
+//[ 1  |   2   | 3  |  4  | 5]
+//[ 0   | 1    | 2   | 3   |  4]

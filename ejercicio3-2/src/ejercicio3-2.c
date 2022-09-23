@@ -14,7 +14,7 @@
 int determinarPar(int numero) ;
 
 int main(void) {
-	int numero;
+	int numero=0;
 
 	numero = determinarPar(numero);
 

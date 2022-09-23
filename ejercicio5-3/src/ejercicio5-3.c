@@ -10,19 +10,62 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void averagePositives(int number[]);
+void addPredecessorsMinimumNegative(int number[]);
+
 int main(void) {
 	setbuf(stdout, NULL);
-	int number;
+	int number[10];
+	int i = 0;
 
-
-	do {
-		printf("Enter 10 numbers: \n");
-
-			for(int i;i<10;i++){
-			scanf("%d", &number);
-			}
-	} while (number == 0);
-
+	for (i = 0; i < 10; i++) {
+		do {
+			printf("ingrese numero entero: %d \n", i);
+			scanf("%d", &number[i]);
+		} while (number[i] == 0);
+	}
+	averagePositives(number);
+	addPredecessorsMinimumNegative(number);
 	return EXIT_SUCCESS;
 
 }
+void averagePositives(int number[]) {
+
+	int acumulatorPositives = 0;
+	int counterPositives = 0;
+	float average = 0;
+
+	for (int i = 0; i < 10; i++) {
+		if (number[i] > 0) {
+			acumulatorPositives += number[i];
+			counterPositives++;
+			average = (float) acumulatorPositives / counterPositives;
+		}
+	}
+	printf("The average of positives numbers is: %.2f \n", average);
+}
+
+void addPredecessorsMinimumNegative(int number[]) {
+
+	int flag = 0;
+	int lessNegative = 0;
+	int i = 0;
+	int acumulatorLessNegative = 0;
+
+	for (i = 0; i < 10; i++) {
+		if (number[i] < 0) {
+			if (flag == 0 || lessNegative > number[i]) {
+				lessNegative = number[i];
+				flag = 1;
+			}
+		}
+	}
+//	printf("%d \n", lessNegative);
+	for (i = lessNegative; lessNegative < 0; lessNegative++) {
+		acumulatorLessNegative += lessNegative + 1;
+	}
+	printf("the add of the predecessors negatives: %d \n", acumulatorLessNegative);
+}
+
+
+

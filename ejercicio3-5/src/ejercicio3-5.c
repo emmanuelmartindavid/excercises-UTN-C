@@ -22,9 +22,9 @@ int main(void) {
 	int resultadoSuma2;
 	int numero1 = 3;
 	int numero2 = 4;
-
+		//7				//7
 	resultadoSuma1 = sumaNumero1(numero1, numero2);
-	printf("suma 1 funcion INT-INT: %d \n", resultadoSuma1);
+	printf("suma 1 funcion INT-INT: %d \n", resultadoSuma1);//7
 
 	resultadoSuma2 = sumaNumero2();
 	printf("suma 2 funcion INT-VOID: %d \n", resultadoSuma2);
@@ -44,9 +44,9 @@ int main(void) {
 
 //FUNCION RECIBE PARAMETRO Y RETORNA PARAMETRO - INT (INT)
 int sumaNumero1(int primerNumero, int segundoNumero) {
-	int suma;
-	suma = primerNumero + segundoNumero;
-	return suma;
+	int resultado;
+	resultado=primerNumero + segundoNumero;
+	return resultado;
 }
 //FUNCION NO RECIBE PARAMETRO Y RETORNA PARAMETRO - INT (VOID)
 

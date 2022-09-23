@@ -1,16 +1,10 @@
-/*
- * validacionesC-F.c
- *
- *  Created on: Sep 1, 2022
- *      Author: cuerpos
- */
-#include "funciones-validaciones.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 #include <ctype.h>
+#include "funciones.h"
 
-int menu(char option, float degreeFarhenheit, float degreeCelcius,
+void menu(char option, float degreeFarhenheit, float degreeCelcius,
 		float fahrenheittoCelcius, float celciustofahrenheit, float validation) {
 
 	setbuf(stdout, NULL);
@@ -27,15 +21,12 @@ int menu(char option, float degreeFarhenheit, float degreeCelcius,
 		} while (option != 'c' && option != 'f');
 
 		if (option == 'f') {
-
 			validation = validateTemperatureFarhenheit(degreeFarhenheit);
 			printf("%.2f FAHRENHEIT are %.2f CELCIUS \n", validation,
 					fahrenheittoCelcius = transformFahrenheitCelcius(
 							validation));
 		} else {
-
 			validation = validateTemperauteCelcius(degreeCelcius);
-
 			printf("%.2f CELCIUS are %.2f FAHRENHEIT \n", validation,
 					celciustofahrenheit = transformCelciusFahrenheit(
 							validation));
@@ -46,6 +37,5 @@ int menu(char option, float degreeFarhenheit, float degreeCelcius,
 		scanf("%c", &message);
 
 	} while (message == 's');
-	return option;
 }
 

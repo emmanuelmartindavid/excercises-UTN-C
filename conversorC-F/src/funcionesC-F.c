@@ -1,9 +1,4 @@
-/*
- * funcionesC-F.c
- *
- *  Created on: Sep 1, 2022
- *      Author: cuerpos
- */
+
 #include "funciones-validaciones.h"
 #include <stdio.h>
 #include <stdlib.h>

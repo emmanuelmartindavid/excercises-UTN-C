@@ -1,8 +1,5 @@
 /*
  ============================================================================
- Name        : ejercicio1-3.c
- Author      : 
- Version     :
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
  Ejercicio 1-3: ingresar 3 números y mostrar el número del medio, sólo si existe. En caso de que no exista también informarlo.
@@ -33,7 +30,7 @@ scanf("%d", &numeroTres);
 
 if (numeroUno==numeroDos || numeroDos==numeroUno || numeroTres==numeroDos)
 {
-printf ("No hay número medio");
+printf ("No hay número medio, observe");
 }
 else if((numeroUno>numeroDos && numeroUno<numeroTres) || (numeroUno < numeroDos && numeroUno > numeroTres))
 {
