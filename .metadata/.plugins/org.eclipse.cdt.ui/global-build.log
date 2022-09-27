@@ -1,5 +1,12 @@
-23:39:31 **** Incremental Build of configuration Debug for project ejercicio8-2 ****
+22:04:08 **** Incremental Build of configuration Debug for project ejercicio8-2 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio8-2.o" "..\\src\\ejercicio8-2.c" 
-gcc -o ejercicio8-2.exe "src\\UTN.o" "src\\ejercicio8-2.o" 
-Info: Nothing to build for ejercicio8-2
+..\src\ejercicio8-2.c: In function 'listProducts':
+..\src\ejercicio8-2.c:279:28: error: incompatible type for argument 1 of 'listOneProduct'
+  279 |     listOneProduct(products[i]);
+      |                    ~~~~~~~~^~~
+      |                            |
+      |                            apple {aka struct <anonymous>}
+..\src\ejercicio8-2.c:255:27: note: expected 'apple *' {aka 'struct <anonymous> *'} but argument is of type 'apple' {aka 'struct <anonymous>'}
+  255 | void listOneProduct(apple products[]) {
+      |                     ~~~~~~^~~~~~~~~~

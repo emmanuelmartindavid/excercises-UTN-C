@@ -1,6 +1,9 @@
 #ifndef UTN_H_
 #define UTN_H_
 
+
+
+
 int getString(char *string, int len);
 int isAlfaNumeric(char *string, int len);
 int getAlfaNumeric(char *pResult, int len);
