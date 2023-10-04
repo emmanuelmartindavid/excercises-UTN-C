@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Test\\Test.csproj": {}
+    "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Entities\\Entities.csproj": {
+    "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\cuerpos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cuerpos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Test\\Test.csproj": {
+    "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Test\\Test.csproj",
+        "projectPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\cuerpos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Test\\obj\\",
+        "outputPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cuerpos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Entities\\Entities.csproj"
+              "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Entities\\Entities.csproj"
               }
             }
           }

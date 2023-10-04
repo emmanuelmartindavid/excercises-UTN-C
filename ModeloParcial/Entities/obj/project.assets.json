@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\cuerpos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cuerpos\\AppData\\Roaming\\NuGet\\NuGet.Config",

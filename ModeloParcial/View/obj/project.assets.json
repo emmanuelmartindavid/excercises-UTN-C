@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\View\\View.csproj",
+      "projectUniqueName": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\View\\View.csproj",
       "projectName": "View",
-      "projectPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\View\\View.csproj",
+      "projectPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\View\\View.csproj",
       "packagesPath": "C:\\Users\\cuerpos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\View\\obj\\",
+      "outputPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\View\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cuerpos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\ModeloParcial\\Entities\\Entities.csproj"
+            "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\cuerpos\\Desktop\\Labo-2023\\excercises-UTN-c\\ModeloParcial\\Entities\\Entities.csproj"
             }
           }
         }

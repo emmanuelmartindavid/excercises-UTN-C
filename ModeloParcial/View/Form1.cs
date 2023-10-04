@@ -35,6 +35,7 @@ namespace View
         {
             this.lstAlumnosInscriptosLaboratorio.DataSource = null;
             this.lstAlumnosInscriptosProgramacion.DataSource = null;
+            MessageBox.Show("hola");
             this.lstAlumnosInscriptosLaboratorio.DataSource = this.cursoLaboratorio.Students;
             this.lstAlumnosInscriptosProgramacion.DataSource = this.cursoProgramacion.Students;
         }
